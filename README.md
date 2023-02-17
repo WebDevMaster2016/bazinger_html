@@ -8,3 +8,5 @@ Change directory to **source** and run one of the following command:
 3. `npm run build` - install **node_modules**, rebuild **node-sass**, build static for production
 
 Aliases for HTML images are in `source/gulp-tasks/html.js` file.
+
+https://melodic-belekoy-36b4b3.netlify.app/
