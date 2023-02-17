@@ -1,0 +1,471 @@
+@@include('base.html', {
+"page-lang": "en",
+"page-title": "bazinger",
+"page-description": "bazinger",
+"style": "index.html"
+})
+
+<!-- hero -->
+<section id='hero' class='hero js-section'>
+  <picture>
+    <source type='image/webp'
+            srcset='@@image_preload'
+            data-srcset='@@images_home__hero.webp, @@images_home__hero@2x.webp 2x'
+    >
+    <source type='image/png'
+            srcset='@@image_preload'
+            data-srcset='@@images_home__hero.png, @@images_home__hero@2x.png 2x'
+    >
+    <img class='hero__bg-image js-lazy'
+         width='1480'
+         height='943'
+         srcset='@@image_preload'
+         src='@@image_preload'
+         data-srcset='@@images_home__hero@2x.png 2x'
+         data-src='@@images_home__hero.png'
+         alt='phone in hand against the backdrop of the city'
+    >
+  </picture>
+  <div class='wrapper hero__wrapper'>
+
+    <div class='swiper hero__slider js-hero-slider'>
+
+      <div class='swiper-wrapper hero__slider-wrapper'>
+
+        <div class='swiper-slide hero__slider-item'>
+
+          <h1 class='headline headline--lvl1 hero__headline'>Simple, Beautiful <strong class='bold'>and Amazing</strong></h1>
+          <p class='hero__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
+            luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla
+            lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+          <div class='hero__action'>
+            <a class='button button--white-border'
+               href='#'
+            >download</a>
+            <a class='button button--blue'
+               href='#'
+            >learn more</a>
+          </div>
+          <div class='hero__available'>
+            <p class='hero__available-text'>Available on:</p>
+            <a class='hero__available-link'
+               href='#'
+               aria-label='ios'
+            >
+              <svg class='icon hero__available-icon'>
+                <use xlink:href='@@sprites_home__ios'></use>
+              </svg>
+            </a>
+            <a class='hero__available-link'
+               href='#'
+               aria-label='android'
+            >
+              <svg class='icon hero__available-icon'>
+                <use xlink:href='@@sprites_home__android'></use>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+        <div class='swiper-slide hero__slider-item'>
+          <h1 class='headline headline--lvl1 hero__headline'>Simple, Beautiful <strong class='bold'>and Amazing</strong></h1>
+          <p class='hero__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
+            luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla
+            lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+          <div class='hero__action'>
+            <a class='button button--white-border'
+               href='#'
+            >download</a>
+            <a class='button button--blue'
+               href='#'
+            >learn more</a>
+          </div>
+          <div class='hero__available'>
+            <p class='hero__available-text'>Available on:</p>
+            <a class='hero__available-link'
+               href='#'
+               aria-label='ios'
+            >
+              <svg class='icon hero__available-icon'>
+                <use xlink:href='@@sprites_home__ios'></use>
+              </svg>
+            </a>
+            <a class='hero__available-link'
+               href='#'
+               aria-label='android'
+            >
+              <svg class='icon hero__available-icon'>
+                <use xlink:href='@@sprites_home__android'></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class='swiper-slide hero__slider-item'>
+          <h1 class='headline headline--lvl1 hero__headline'>Simple, Beautiful <strong class='bold'>and Amazing</strong></h1>
+          <p class='hero__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus
+            luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla
+            lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+          <div class='hero__action'>
+            <a class='button button--white-border'
+               href='#'
+            >download</a>
+            <a class='button button--blue'
+               href='#'
+            >learn more</a>
+          </div>
+          <div class='hero__available'>
+            <p class='hero__available-text'>Available on:</p>
+            <a class='hero__available-link'
+               href='#'
+               aria-label='ios'
+            >
+              <svg class='icon hero__available-icon'>
+                <use xlink:href='@@sprites_home__ios'></use>
+              </svg>
+            </a>
+            <a class='hero__available-link'
+               href='#'
+               aria-label='android'
+            >
+              <svg class='icon hero__available-icon'>
+                <use xlink:href='@@sprites_home__android'></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class='hero__pagination'></div>
+
+    <div class='hero__slider-button-group'>
+      <button type='button'
+              class='js-hero-button-prev hero__slider-button hero__slider-button--left'
+              aria-label='button left'
+      >
+        <svg class='icon hero__slider-arrow hero__slider-arrow--left'>
+          <use xlink:href='@@sprites_home__arrow-right'></use>
+        </svg>
+      </button>
+      <button type='button'
+              class='js-hero-button-next hero__slider-button hero__slider-button--right'
+              aria-label='button right'
+      >
+        <svg class='icon hero__slider-arrow hero__slider-arrow--right'>
+          <use xlink:href='@@sprites_home__arrow-right'></use>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+</section>
+<!-- /hero -->
+
+<!-- why -->
+<section id='features' class="features js-section">
+	<div class='wrapper features__wrapper'>
+    <h2 class='headline headline--lvl2 features__headline'>summarise the features</h2>
+    <p class='features__text'>summarise what your product is all about</p>
+
+    <div class='features__list'>
+      <figure class='features__figure'>
+        <div class='features__figure-icon'>
+          <svg class='icon features__icon'>
+            <use xlink:href='@@sprites_home__layout'></use>
+          </svg>
+        </div>
+        <figcaption class='features__caption'>
+          <h3 class='headline headline--lvl3 features__caption-headline'>Attractive Layout</h3>
+          <p class='features__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+      <figure class='features__figure'>
+        <div class='features__figure-icon'>
+          <svg class='icon features__icon'>
+            <use xlink:href='@@sprites_home__design'></use>
+          </svg>
+        </div>
+        <figcaption class='features__caption'>
+          <h3 class='headline headline--lvl3 features__caption-headline'>Fresh Design</h3>
+          <p class='features__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+      <figure class='features__figure'>
+        <div class='features__figure-icon'>
+          <svg class='icon features__icon'>
+            <use xlink:href='@@sprites_home__multipurpose'></use>
+          </svg>
+        </div>
+        <figcaption class='features__caption'>
+          <h3 class='headline headline--lvl3 features__caption-headline'>multipurpose</h3>
+          <p class='features__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+      <figure class='features__figure'>
+        <div class='features__figure-icon'>
+          <svg class='icon features__icon'>
+            <use xlink:href='@@sprites_home__customize'></use>
+          </svg>
+        </div>
+        <figcaption class='features__caption'>
+          <h3 class='headline headline--lvl3 features__caption-headline'>Easy to customize</h3>
+          <p class='features__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<!-- /why -->
+
+<!-- gallery -->
+<section id='gallery' class="gallery js-section">
+  <div class='wrapper gallery__wrapper'>
+    <h2 class='headline headline--lvl2 gallery__headline'>show the gallery</h2>
+    <p class='gallery__text'>summarise what your product is all about</p>
+
+    <div class='gallery__list js-gallery-list'>
+      <figure class='gallery__figure'>
+        <div class='gallery__figure-icon'>
+          <picture>
+            <source type='image/webp'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery1.webp, @@images_home__gallery1@2x.webp 2x'
+            >
+            <source type='image/png'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery1.jpg, @@images_home__gallery1@2x.jpg 2x'
+            >
+            <img class='gallery__image js-lazy'
+                 width='1280'
+                 height='853'
+                 srcset='@@image_preload'
+                 src='@@image_preload'
+                 data-srcset='@@images_home__gallery1@2x.jpg 2x'
+                 data-src='@@images_home__gallery1.jpg'
+                 alt='gallery1'
+            >
+          </picture>
+          <div class='gallery__figure-zoom js-gallery-trigger'
+               data-element='1'
+          >
+            <svg class='icon gallery__icon-zoom'>
+              <use xlink:href='@@sprites_home__zoom-in'></use>
+            </svg>
+          </div>
+          <h3 class='headline headline--lvl3 gallery__caption-headline'>screen shot #1</h3>
+        </div>
+        <figcaption class='gallery__caption'>
+          <p class='gallery__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+      <figure class='gallery__figure'>
+        <div class='gallery__figure-icon'>
+          <picture>
+            <source type='image/webp'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery2.webp, @@images_home__gallery2@2x.webp 2x'
+            >
+            <source type='image/png'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery2.jpg, @@images_home__gallery2@2x.jpg 2x'
+            >
+            <img class='gallery__image js-lazy'
+                 width='1280'
+                 height='853'
+                 srcset='@@image_preload'
+                 src='@@image_preload'
+                 data-srcset='@@images_home__gallery2@2x.jpg 2x'
+                 data-src='@@images_home__gallery2.jpg'
+                 alt='gallery2'
+            >
+          </picture>
+          <div class='gallery__figure-zoom js-gallery-trigger'
+               data-element='2'
+          >
+            <svg class='icon gallery__icon-zoom'>
+              <use xlink:href='@@sprites_home__zoom-in'></use>
+            </svg>
+          </div>
+          <h3 class='headline headline--lvl3 gallery__caption-headline'>screen shot #2</h3>
+        </div>
+        <figcaption class='gallery__caption'>
+          <p class='gallery__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+      <figure class='gallery__figure'>
+        <div class='gallery__figure-icon'>
+          <picture>
+            <source type='image/webp'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery3.webp, @@images_home__gallery3@2x.webp 2x'
+            >
+            <source type='image/png'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery3.jpg, @@images_home__gallery3@2x.jpg 2x'
+            >
+            <img class='gallery__image js-lazy'
+                 width='1280'
+                 height='853'
+                 srcset='@@image_preload'
+                 src='@@image_preload'
+                 data-srcset='@@images_home__gallery3@2x.jpg 2x'
+                 data-src='@@images_home__gallery3.jpg'
+                 alt='gallery3'
+            >
+          </picture>
+          <div class='gallery__figure-zoom js-gallery-trigger'
+               data-element='3'
+          >
+            <svg class='icon gallery__icon-zoom'>
+              <use xlink:href='@@sprites_home__zoom-in'></use>
+            </svg>
+          </div>
+          <h3 class='headline headline--lvl3 gallery__caption-headline'>screen shot #3</h3>
+        </div>
+        <figcaption class='gallery__caption'>
+          <p class='gallery__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+      <figure class='gallery__figure'>
+        <div class='gallery__figure-icon'>
+          <picture>
+            <source type='image/webp'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery4.webp, @@images_home__gallery4@2x.webp 2x'
+            >
+            <source type='image/png'
+                    srcset='@@image_preload'
+                    data-srcset='@@images_home__gallery4.jpg, @@images_home__gallery4@2x.jpg 2x'
+            >
+            <img class='gallery__image js-lazy'
+                 width='1280'
+                 height='853'
+                 srcset='@@image_preload'
+                 src='@@image_preload'
+                 data-srcset='@@images_home__gallery4@2x.jpg 2x'
+                 data-src='@@images_home__gallery4.jpg'
+                 alt='gallery1'
+            >
+          </picture>
+          <div class='gallery__figure-zoom js-gallery-trigger'
+               data-element='4'
+          >
+            <svg class='icon gallery__icon-zoom'>
+              <use xlink:href='@@sprites_home__zoom-in'></use>
+            </svg>
+          </div>
+          <h3 class='headline headline--lvl3 gallery__caption-headline'>screen shot #4</h3>
+        </div>
+        <figcaption class='gallery__caption'>
+          <p class='gallery__caption-text'>Nunc cursus libero purus ac congue arcu cursus ut sed vitae pulvinar massa idporta nequetiam elerisque mi id faucibus iaculis vitae pulvinar.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+<!-- /gallery -->
+
+<!-- video -->
+<section id='video' class='video js-video js-section'>
+  <picture>
+    <source type='image/webp'
+            srcset='@@image_preload'
+            data-srcset='@@images_home__video_bg.webp, @@images_home__video_bg@2x.webp 2x'
+    >
+    <source type='image/png'
+            srcset='@@image_preload'
+            data-srcset='@@images_home__video_bg.jpg, @@images_home__video_bg@2x.jpg 2x'
+    >
+    <img class='video__bg-image js-lazy'
+         width='1480'
+         height='1072'
+         srcset='@@image_preload'
+         src='@@image_preload'
+         data-srcset='@@images_home__video_bg@2x.jpg 2x'
+         data-src='@@images_home__video_bg.jpg'
+         alt='video background'
+    >
+  </picture>
+  <div class='wrapper video__wrapper'>
+    <button type='button'
+            class='video__play js-video-play'
+            aria-label='play button'
+    >
+      <svg class='icon video__icon'>
+        <use xlink:href='@@sprites_home__play'></use>
+      </svg>
+    </button>
+    <h2 class='headline headline--lvl1 video__headline'>Watch the best Technology in <strong class='bold'>Action</strong></h2>
+    <p class='video__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus sem.</p>
+  </div>
+</section>
+<!-- /video -->
+
+<!-- contacts -->
+<section id='contacts' class='contacts js-section'>
+  <div class="contacts__map-outer">
+    <div class="contacts__gmap-canvas">
+      <iframe width="100%"
+              height="100%"
+              title='openstreetmap'
+              src="https://www.openstreetmap.org/export/embed.html?bbox=30.505728721618656%2C50.43417888604363%2C30.53405284881592%2C50.44612300977156&amp;layer=mapnik" style="border: 1px solid black"
+      ></iframe>
+    </div>
+  </div>
+
+  <div class='wrapper contacts__wrapper'>
+    <div class='contacts__box'>
+      <h2 class='headline contacts__headline'>Contact</h2>
+      <form method='post'
+            action='/'
+      >
+        <fieldset class='contacts__group'>
+          <label for='name'
+                 class='visually-hidden'
+          >Your name</label>
+          <input id='name'
+                 class='contacts__input'
+                 type='text'
+                 placeholder='Your name'
+          >
+          <label for='email'
+                 class='visually-hidden'
+          >Your email</label>
+          <input id='email'
+                 class='contacts__input'
+                 type='email'
+                 placeholder='Your email'
+          >
+          <label for='subject'
+                 class='visually-hidden'
+          >Subject</label>
+          <input id='subject'
+                 class='contacts__input'
+                 type='text'
+                 placeholder='Subject'
+          >
+          <label for='message'
+                 class='visually-hidden'
+          >Message</label>
+          <textarea id='message'
+                    class='contacts__input contacts__input--textarea'
+                    placeholder='Message'
+          ></textarea>
+        </fieldset>
+        <button class='button button--gray contacts__button'
+                type='submit'
+        >Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- contacts -->
+
+@@include('footer.html', {
+"script": "home.html"
+})
